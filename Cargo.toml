@@ -1,11 +1,9 @@
 [package]
 authors = ["Maxwell Rupp <gignsky@gignsky.com>"]
-edition = "2021"
 # If you change the name here, you must also do it in flake.nix (and run `cargo generate-lockfile` afterwards)
 name = "gignsky-dot-com"
 description = "A simple Rust project using Nix"
 version = "0.0.0"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+edition = "2024"
 
 [dependencies]
