@@ -1,10 +1,11 @@
-{ inputs, ... }: {
+_: {
   perSystem =
     { config
     , self'
     , pkgs
     , ...
-    }: {
+    }:
+    {
       devShells.default = pkgs.mkShell {
         name = "gignsky-dot-com-shell";
         inputsFrom = [
@@ -25,11 +26,11 @@
           rustfmt
 
           # gigdot programs
-          inputs.gigdot.packages.${system}.quick-results
-          inputs.gigdot.packages.${system}.upjust
-          inputs.gigdot.packages.${system}.upspell
-          inputs.gigdot.packages.${system}.upflake
-          inputs.gigdot.packages.${system}.cargo-update
+          # inputs.gigdot.packages.${system}.quick-results
+          # inputs.gigdot.packages.${system}.upjust
+          # inputs.gigdot.packages.${system}.upspell
+          # inputs.gigdot.packages.${system}.upflake
+          # inputs.gigdot.packages.${system}.cargo-update
 
           # Dioxus and such
           dioxus-cli
