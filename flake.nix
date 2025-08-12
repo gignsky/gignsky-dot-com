@@ -21,10 +21,10 @@
     };
 
     # personal repos
-    gigdot = {
-      url = "github:gignsky/dotfiles";
-      flake = true;
-    };
+    # gigdot = {
+    #   url = "github:gignsky/dotfiles";
+    #   flake = true;
+    # };
   };
 
   outputs =
