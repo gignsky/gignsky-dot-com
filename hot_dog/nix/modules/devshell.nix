@@ -34,6 +34,7 @@ _: {
 
           # Dioxus and such
           dioxus-cli
+          wasm-bindgen-cli
         ];
         shellHook = ''
           echo "welcome to the rust development environment for the hot-dog package" | ${pkgs.cowsay}/bin/cowsay | ${pkgs.lolcat}/bin/lolcat 2> /dev/null;
