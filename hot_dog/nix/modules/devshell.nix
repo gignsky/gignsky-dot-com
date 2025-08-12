@@ -7,7 +7,7 @@ _: {
     }:
     {
       devShells.default = pkgs.mkShell {
-        name = "gignsky-dot-com-shell";
+        name = "hot-dog-devShell";
         inputsFrom = [
           self'.devShells.rust
           # config.pre-commit.devShell # See ./nix/modules/pre-commit.nix
